@@ -14,3 +14,7 @@ source venv/bin/activate
 To run the app on the server uvicorn:
 
 uvicorn main:app
+
+CRUD: Create Read Update Delete
+
+5:50:58
