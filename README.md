@@ -1,5 +1,6 @@
 # FAST-API-freecodecamp-course
 
+Course link: https://www.youtube.com/watch?v=0sOvCWFmrtA
 
 Create main.py file
 
@@ -17,4 +18,6 @@ uvicorn main:app
 
 CRUD: Create Read Update Delete
 
-5:50:58
+7:03:39
+
+For hashing passwor, install ```pip install "passlib[bcrypt]"```
