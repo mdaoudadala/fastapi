@@ -18,7 +18,7 @@ uvicorn main:app
 
 CRUD: Create Read Update Delete
 
-7:03:39
+9:50:25
 
 For hashing passwor, install ```pip install "passlib[bcrypt]"```
 
