@@ -115,3 +115,8 @@ To make a call from a browser
 You first need to resolve Core policy before it works.
 
 
+To install requirements
+
+pip install -r requirements.txt
+
+
