@@ -79,3 +79,39 @@ To access the envrionment variable on Mac/Linux
 echo $MY_DB_URL
 
 ```
+
+Decode JWT token
+
+https://jwt.io/
+
+
+Alembic commands:
+
+```
+alembic upgrade <revision number>
+```
+To modify or create a new table, we need to create a revision (it looks like commits in github):
+
+```
+alembic revision -m "add content column to posts table"
+
+
+alembic upgrade head
+
+alembic upgrade +1
+
+alembic upgrade -2
+
+alembic revision --autogenerate -m "Add vote table with auto-generate"
+
+```
+
+To make a call from a browser
+
+- Go on google.com
+- right click, click 'inspect'
+- Go to console and writte ```fetch('http://localhost:8000/').then(res => res.json()).then(console.log) ```
+
+You first need to resolve Core policy before it works.
+
+
