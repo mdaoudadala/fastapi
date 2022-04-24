@@ -2,6 +2,8 @@
 
 Course link: https://www.youtube.com/watch?v=0sOvCWFmrtA
 
+Course github: https://github.com/Sanjeev-Thiyagarajan/fastapi-course
+
 Create main.py file
 
 Create virtual env by running
@@ -18,7 +20,7 @@ uvicorn main:app
 
 CRUD: Create Read Update Delete
 
-12:12:25
+13:48:25
 
 For hashing passwor, install ```pip install "passlib[bcrypt]"```
 
@@ -153,4 +155,21 @@ sudo ufw enable
 
 To delete a rule:
 
-sudo ufw delete allow http
+sudo ufw delete allow https
+
+
+docker-compose up -d
+
+docker-compose -f docker-compose-dev.yml up -d --> with custom nam of docker-composer.yml file
+
+docker-compose down
+
+docker ps
+
+docker logs fastapi_1
+
+
+docker exec -it fastapi_1 bash --> to connect to the container terminal
+
+
+pytest -v -s --> To print result during the test
