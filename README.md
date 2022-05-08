@@ -20,7 +20,9 @@ uvicorn main:app
 
 CRUD: Create Read Update Delete
 
-13:48:25
+18:08:25
+
+Testing --> 16:30
 
 For hashing passwor, install ```pip install "passlib[bcrypt]"```
 
@@ -171,5 +173,5 @@ docker logs fastapi_1
 
 docker exec -it fastapi_1 bash --> to connect to the container terminal
 
-
+docker exec -it asynctask_airflow_run_1110b2b68aa6 bash
 pytest -v -s --> To print result during the test
